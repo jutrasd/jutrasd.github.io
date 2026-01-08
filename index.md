@@ -1,16 +1,16 @@
-# Daniel Jutras
-Mechanical Engineering | Robotics | Autonomous Systems
-
-## About
-Mechanical engineering student with hands-on experience in autonomous systems, robotics, and data-driven engineering tools. Strong background in system integration, mechanical design, and applied software development.
-
 ## Featured Projects
-- **AI for Robust Navigation Solutions** — Senior Design  
-- **Autonomous LiDAR Mobile Robot**  
-- **2D SLAM (gmapping)**  
-- **Table Tennis Ball Launcher**  
-- **Production Dashboard (Teknor Apex)**
+- **[AI for Robust Navigation Solutions](projects/ai-robust-navigation/)**  
+  Machine learning–assisted localization to reduce navigation drift
 
-## Resume
-[Download Resume](assets/resume.pdf)
+- **[Autonomous LiDAR Mobile Robot](projects/lidar-mobile-robot/)**  
+  ROS2-based mobile robot for autonomous navigation and sensor integration
+
+- **[2D SLAM (gmapping)](projects/slam-gmapping/)**  
+  LiDAR-based mapping and localization using classical SLAM techniques
+
+- **[Table Tennis Ball Launcher](projects/ball-launcher/)**  
+  Mechanical design and timing optimization for repeatable launch performance
+
+- **[Production Dashboard (Teknor Apex)](projects/production-dashboard/)**  
+  Interactive manufacturing dashboard for production data analysis
 
