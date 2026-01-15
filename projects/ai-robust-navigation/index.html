@@ -20,18 +20,17 @@
   <section>
     <h2>Overview</h2>
     <p>
-      This senior design project explores the use of machine learning to improve navigation robustness
-      in autonomous robots operating under sensor noise and drift...
+      This senior design project explores the use of machine learning to improve navigation robustness in autonomous robots operating under sensor noise and drift. Modern navigation systems rely      significantly on a Global Navigation Satellite System (GNSS) for localization. In a world with GNSS-incompatible areas and bad actors using spoofing techniques to deny GNSS service, it is crucial to have an alternative reliable navigation method. Inertial measurement units (IMUs) attempt to fill this alternative navigation role as they utilize proprioceptive sensors for localizing, which do not rely on data from the environment, making them useful in GNSS-incompatible areas. However, IMUs are susceptible to accumulated error as they integrate noisy and biased data (acceleration and angular velocity) to get position and orientation. Over long trajectories, even small errors can lead to significant localization drift, reducing navigation accuracy and system performance. The goal of this project is to augment classical navigation pipelines with a learning-based correction approach to improve pose estimation stability and overall system reliability.
     </p>
   </section>
 
   <section>
     <h2>Technical Approach</h2>
     <ul>
-      <li>Multi-sensor fusion (IMU, GNSS, wheel odometry)</li>
-      <li>Sensor synchronization and preprocessing</li>
-      <li>AKF-GRU hybrid learning model</li>
-      <li>Baseline comparison against GNSS</li>
+      <li>Execute multi-sensor fusion (IMU, GNSS, wheel odometry)</li>
+      <li>Implement a machine learning model (AKF-GRU hybrid) to estimate and correct localization drift</li>
+      <li>Compared learning-assisted pose estimates against baseline (GNSS)</li>
+      <li>Evaluated performance under varying noise conditions and motion profiles</li>
     </ul>
   </section>
 
@@ -39,6 +38,12 @@
     <h2>Visuals</h2>
     <img src="images/architecture.jpeg" alt="System Architecture" />
     <p><em>High-level system architecture.</em></p>
+    <img src="images/hardware_architecture.jpeg" alt="Hardware Architecture" />
+    <p><em>Physical integration and enclosure.</em></p>
+    <img src="images/software_architecture.jpeg" alt="Software Architecture" />
+    <p><em>Software data flows and processing.</em></p>
+    <img src="images/CAD_model.jpeg" alt="CAD Model" />
+    <p><em>Isometric view of the CAD model with components (open).</em></p>
   </section>
 
   <section>
