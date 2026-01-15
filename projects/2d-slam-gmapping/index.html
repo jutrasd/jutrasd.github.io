@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>2D SLAM with Gmapping</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../../style.css" />
+</head>
+<body>
+
+<nav>
+  <a href="../../">← Back to Portfolio</a>
+</nav>
+
+<main>
+  <h1>2D SLAM with Gmapping</h1>
+  <p><strong>Simultaneous Localization and Mapping using Rao-Blackwellized Particle Filters</strong></p>
+
+  <section>
+    <h2>Overview</h2>
+    <p>
+      This project focused on implementing and evaluating a 2D SLAM pipeline using the
+      <em>gmapping</em> algorithm to enable a mobile robot to localize itself while
+      constructing an occupancy grid map of an unknown environment.
+    </p>
+    <p>
+      The objective was to gain a deeper understanding of probabilistic localization,
+      particle filter–based SLAM, and the effects of sensor noise and motion uncertainty
+      on map quality and pose estimation.
+    </p>
+  </section>
+
+  <section>
+    <h2>Technical Approach</h2>
+    <ul>
+      <li>Implemented 2D SLAM using ROS and the gmapping package</li>
+      <li>Integrated 2D LiDAR, wheel odometry, and laser scanner data for pose estimation</li>
+      <li>Tuned particle count, motion model parameters, and sensor update rates</li>
+      <li>Analyzed map drift, loop closure, and global alignment to evaluate mapping accuracy</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Results & Observations</h2>
+    <ul>
+      <li>Generated consistent occupancy grid maps in structured indoor environments</li>
+      <li>Observed tradeoffs between particle count, computational load, and map fidelity</li>
+      <li>Identified failure modes related to wheel slip and rapid rotational motion</li>
+    </ul>
+  </section>
+
+  <section>
+  <h2>Visuals</h2>
+
+  <figure>
+    <img src="images/reference_map.jpeg" alt="Reference environment layout" />
+    <figcaption>
+      Reference map of the test environment used for qualitative comparison.
+    </figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/generated_map.jpeg" alt="Generated SLAM occupancy grid map" />
+    <figcaption>
+      Occupancy grid map generated using gmapping with LiDAR and odometry data.
+    </figcaption>
+  </figure>
+  </section>
+
+
+  <section>
+    <h2>Tools & Skills</h2>
+    <p><strong>Tools:</strong> ROS, RViz, gmapping, Ubuntu Linux</p>
+    <p><strong>Skills:</strong> Probabilistic robotics, SLAM, localization, sensor fusion</p>
+  </section>
+
+<section>
+  <h2>Implementation & Analysis</h2>
+  <p>
+    This was an individual project in which I was responsible for the complete
+    system setup, algorithm implementation, parameter tuning, and performance
+    evaluation. I analyzed the impact of sensor noise, motion uncertainty, and
+    particle filter configuration on localization accuracy and map quality, and
+    iteratively refined the system based on experimental observations.
+  </p>
+</section>
+
+<nav>
+  <a href="../../">← Back to Portfolio</a>
+</nav>
+
+</main>
+
+</body>
+</html>
